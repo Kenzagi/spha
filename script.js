@@ -20,3 +20,26 @@ for (var i = 0; i < links.length; i++) {
     this.className += " active";
   });
 }
+
+
+let popup = document.getElementById("popup");
+
+// function copyEmail(){
+	// popup.classList.add("copyEmail");
+	// setTimeout(() => {
+		// popup.classList.remove("copyEmail");
+	// }, 3500);
+// }
+
+
+const copyButton = document.getElementById('email');
+copyButton.addEventListener('click', (event) => {
+    // getting the text content that we want to copy
+    const content = document.getElementById('email').textContent;
+    // loading the content into our clipboard
+    navigator.clipboard.writeText(content);
+	popup.classList.add("copyEmail");
+	setTimeout(() => {
+		popup.classList.remove("copyEmail");
+	}, 3500);
+})
