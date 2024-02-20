@@ -19,12 +19,16 @@
 <body>
 
 	<div class="container">
+	
+		<!---------------- NAVIGATION BAR ----------------->
 		<nav id="navbar">
-			<a class="links" href="#" >Home</a>
-			<a class="links" href="#page2">Services</a>
-			<a class="links" href="#page3">Gallery</a>
+			<a class="links active" href="#" >Home</a>
+			<a class="links" href="#page2">Gallery</a>
+			<a class="links" href="#page3">Services</a>
 			<a class="links" href="#page4">Contact</a>
 		</nav>
+		
+		<!---------------- HERO SECTION ----------------->
 		
 		<div class="section" id="page1">
 			<div class="hero">
@@ -48,6 +52,8 @@
 				</div>
 			</div>
 		</div>
+		
+		<!---------------- PROJECTS SECTION ----------------->
 		
 		<div class="section" id="page2">
 			<div class="cards">
@@ -84,6 +90,8 @@
 			</div>
 		</div>
 		
+		<!---------------- Services SECTION ----------------->
+		
 		<div class="section" id="page3">
 			<div class="block-box">
 			
@@ -116,6 +124,11 @@
 							</span>
 							<span class="span1">
 							<li class="list-item">React
+							<span class="span2"></span>
+							<span class="span3"></span></li>
+							</span>
+							<span class="span1">
+							<li class="list-item">Wordpress
 							<span class="span2"></span>
 							<span class="span3"></span></li>
 							</span>
@@ -250,13 +263,14 @@
 		
 		<div class="section" id="page4">
 			<div class="contact">
-				<div class="info" data-cursor-text="get in touch">
+				<div class="popup" id="popup">Email Copied!</div>
+				<div class="info">
 					<h3>Drop me an email:</h3>
-					<a data-text="email-text" href="mailto:sphamandlajunior31@gmail.com">sphamandlajunior31@gmail.com</a>
+					<a id="email" data-text="email-text" data-cursor-text="copy me!" href="mailto:sphamandlajunior31@gmail.com">sphamandlajunior31@gmail.com</a>
 				</div>
 				<footer>
 					<p>Sphamandla Gumede © 2024</p>
-					<p>Designed & Developed By: Sphamandla Gumede.</p>
+					<p>Designed & Developed By: Khayelihle Gumede.</p>
 				</footer>
 			</div>
 		</div>
