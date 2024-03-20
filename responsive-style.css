@@ -102,6 +102,7 @@ nav a:hover {
 .box-area div{
 	position: relative;
 	height: 0;
+	opacity: 0;
 }
 
 /*-------------- WORK SECTION -------------*/
