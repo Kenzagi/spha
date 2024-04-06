@@ -53,10 +53,11 @@ nav a{
 	font-size: 25px;
 	font-weight: bold;
 	color: #ADADAD;
-	background-color: transparent;
+	background-color: rgba(112, 112, 112, .2);
 	width: 100%;
 	height: 100%;
 	border-radius: 14px;
+	/* border: 1px solid rgba(112, 112, 112, .2); */
 	outline: none;
 	text-align: center;
 	display: flex;
@@ -67,6 +68,7 @@ nav a{
 
 nav a:hover {
 	background: #707070;
+	color: #292929;
 }
 
 .active{
@@ -181,7 +183,7 @@ a{
 	width: 50%;
 	height: 100%;
 	border-radius: 8px;
-	border: .8px solid #292929;
+	/* border: .8px solid #292929; */
 	display: flex;
 	align-items: start;
 	justify-content: center;
@@ -241,7 +243,7 @@ a{
 /*------------------------ PROJECT SECTION ------------------------*/
 
 .cards {
-	gap: 30px;
+	gap: 20px;
 	width: 100%;
 	height: 100%;
 	border-radius: 12px;
@@ -258,9 +260,8 @@ a{
 	align-items: left;
 	justify-content: space-between;
 	width: 410px;
-	height: auto;
 	font-weight: normal;
-	gap: 10px;
+	gap: 12px;
 	background: #292929;
 	color: #FFFAFF;
 	border-radius: 8px;
@@ -323,6 +324,14 @@ a{
 	width: 100%;
 	border-radius: 5px;
 	background-size: cover;
+}
+
+.image{
+	transition: .2s linear;
+}
+
+.image:hover{
+	transform: scale(1.02);
 }
 
 /* a:nth-child(2) {
