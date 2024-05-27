@@ -187,7 +187,8 @@ a{
 	display: flex;
 	align-items: start;
 	justify-content: center;
-	background-image: url(spha.jpg);
+	background-image: url(spha1.jpg);
+	filter: grayscale(100%);
 	background-size: cover;
 	background-position: center;
 	object-fit: cover;
@@ -539,6 +540,10 @@ li:hover > .span3{
 }
 
 .info a::selection {
+	background: #151414;
+}
+
+*::selection {
 	background: #151414;
 }
 
