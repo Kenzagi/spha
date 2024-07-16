@@ -42,4 +42,26 @@ copyButton.addEventListener('click', (event) => {
 	setTimeout(() => {
 		popup.classList.remove("copyEmail");
 	}, 3500);
-})
+});
+
+
+// DROPDOWN MENU  CODE//
+
+// const block = document.getElementById('block');
+// let skills = document.getElementById('skills');
+// let list = document.getElementById('list');
+// let check = false;
+// block.addEventListener('click', (event) =>{
+  
+//   if(!check){
+//     skills.classList.add("showSkills");
+//     check = true;
+//     list.style.display = "flex";
+//   }
+//   else{
+//     skills.classList.remove("showSkills");
+//     check = false;
+//     list.style.display = "none";
+//   }
+  
+// });
