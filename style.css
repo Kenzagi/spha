@@ -257,6 +257,12 @@ a{
 
 /*------------------------ PROJECT SECTION ------------------------*/
 
+#Work{
+	background-color: red;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
 .cards {
 	gap: 20px;
 	padding: 16px;
