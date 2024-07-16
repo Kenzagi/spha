@@ -276,7 +276,7 @@ a{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 450px;
+	max-width: 450px;
 	font-weight: normal;
 	/* gap: 12px; */
 	/* background: #FFFAFF; */
@@ -284,13 +284,13 @@ a{
 	/* border-radius: 8px; */
 	overflow: hidden;
 	transition: .2s linear;
+}
 
-	a{
-		text-decoration: none;
-		color: #707070;
-		/* border-radius: 8px; */
-		/* background-color: #FFFAFF; */
-	}
+a{
+	text-decoration: none;
+	color: #707070;
+	/* border-radius: 8px; */
+	/* background-color: #FFFAFF; */
 }
 
 .cards .header{
@@ -298,13 +298,15 @@ a{
 	/* background-color: #ADADAD; */
 }
 
-.cards .projects-conatiner{
+.projects-conatiner{
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
 	flex-wrap: wrap;
 	align-items: start;
-	gap: 12px;
+	justify-content: flex-end;
+	gap: 20px;
 	height: 100%;
+	width: 100%;
 }
 
 .visit-site {
