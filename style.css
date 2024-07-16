@@ -314,28 +314,20 @@ a{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	/* padding-bottom: 12px; */
-
-	img{
-		width: 100%;
-	}
-
-	span{
-		/* gap: 12px; */
-
-		h2{
-			font-weight: 500;
-			font-size: 1.2rem;
-		}
-		p{
-			font-size: .85rem;
-			color: #707070;
-		}
-	}
 }
 
-.visit-site .link-container{
-	
+.visit-site img{
+	width: 100%;
+}
+
+.visit-site span h2{
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.visit-site span p{
+	font-size: .85rem;
+	color: #707070;
 }
 
 .titles{
