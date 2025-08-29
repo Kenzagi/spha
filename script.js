@@ -45,23 +45,26 @@ copyButton.addEventListener('click', (event) => {
 });
 
 
-// DROPDOWN MENU  CODE//
+// MENU  CODE
 
-// const block = document.getElementById('block');
-// let skills = document.getElementById('skills');
-// let list = document.getElementById('list');
-// let check = false;
-// block.addEventListener('click', (event) =>{
+const menu = document.getElementById('menu');
+let menuContainer = document.getElementById('menu-bg');
+let items = document.getElementById('menu-items');
+let external_links = document.getElementById('secondary-links');
+let check = false;
+menu.addEventListener('click', (event) =>{
   
-//   if(!check){
-//     skills.classList.add("showSkills");
-//     check = true;
-//     list.style.display = "flex";
-//   }
-//   else{
-//     skills.classList.remove("showSkills");
-//     check = false;
-//     list.style.display = "none";
-//   }
+  if(!check){
+    menuContainer.classList.add("menu-open");
+    check = true;
+    items.style.display = "flex";
+    external_links.style.display = "flex";
+  }
+  else{
+    menuContainer.classList.remove("menu-open");
+    check = false;
+    items.style.display = "none";
+    external_links.style.display = "none";
+  }
   
-// });
+});
