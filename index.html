@@ -21,21 +21,21 @@
 	<div class="container">
 	
 		<!---------------- NAVIGATION BAR ----------------->
-		<!-- <nav id="navbar">
-			<a class="links active" href="#">
+		<nav id="navbar">
+			<a class="home active" href="#">
 				<div class="link-content">
 					<img src="/Media/spha.jpg" alt="">
 					<div class="link-text">
 						<p>Sphamandla Gumede</p>
 						<div class="location">
-							<img src="/icons/about_section_icons/iconoir-user.svg" alt="">
+							<img src="/icons/navbar_icons/IconoirMapPin.svg" alt="">
 							<p>Durban, SA</p>
 						</div>
 					</div>
 				</div>
 			</a>
 			<div class="menu-bg " id="menu-bg">
-				<div class="menu " id="menu">
+				<div class="menu " id="menu" onclick="doIt()">
 					<div class="lines"></div>
 					<div class="lines"></div>
 					<div class="lines"></div>
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 
-		</nav> -->
+		</nav>
 		
 		<!---------------- HERO SECTION ----------------->
 		
@@ -93,10 +93,10 @@
 					<div class="skill-block">
 						<p class="hero-skills-text">Specializing in:</p>
 						<div class="hero-skills">
-							<img src="/icons/blue-asterisk.png" alt="">
+							<!-- <img src="/icons/blue-asterisk.png" alt=""> -->
 							<img src="/icons/vc-code.png" alt="">
 							<img src="/icons/office.png" alt="">
-							<img src="/icons/dribbble.png" alt="">
+							<img src="/icons/hero-icons/figma.png" alt="">
 							<img src="/icons/icons8-azure-50.png" alt="">
 						</div>	
 					</div>
@@ -114,19 +114,17 @@
 			<div class="intro-header">
 				<h1>Recently,</h1>
 
-				<p>My name is Sphamandla Gumede, an IT - Software Development
-					graduate, music & media consumer, gamer and IT enthusiast. <br>
+				<p>I have accumulated extensive experience designing UI/UX, buildiing and 
+				maintaining software solutions on both server and client sides. <br> <br>
 				
-				Currently, I work at Shopify as a Senior Frontend Engineer
-					crafting thoughtful and inclusive experiences that adhere to 
-					web standards for over 3 million merchants across the world.
+				Currently, I am seking opportunities in software & web developement, 
+				data analytics and IT support. I am also currently enrolled in
+				 Google's Facillitator program and earning badges while learning.
+				 I am Microsoft Certified and constantly
+				 upskilling on Udemy and on personal projects. <br> <br>
 					 
-				Before now, I was Principal Frontend Engineer at, 
-					where I worked on a suite of tools and services tailored towards 
-					automated VAT compliance for multi-channel sellers in Europe.
-				Prior to hellotax, I was Senior frontend engineering 
-					consultant with Pixel2HTML, building JavaScript applications
-					and interfaces for orgs and individuals.
+				Previously, I graduated in IT and obtained a National Diploma majoring in
+				Software Development, at Mangosuthu University of Technology. 
 				</p>
 
 				<!-- <div class="icons-block">
@@ -173,20 +171,37 @@
 						</div>
 					</div>
 				</div>
+				<div class="certifications tabs">
+					<h3>Certifications</h3>
+					<div class="slots">
+						<img src="/icons/certifications/IconoirMedal.png" alt="">
+						<div class="company">
+							<p>Google Arcade</p>
+							<p>Google Arcade Badge 2025</p>
+						</div>
+					</div>
+					<hr>
+					<div class="slots">
+						<img src="/icons/certifications/IconoirMedal.png" alt="">
+						<div class="company">
+							<p>Microsoft</p>
+							<p>Microsoft Certified: Azure AI Fundamentals</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<!---------------- SERVICES SECTION ----------------->
 		
-		<div class="about" id="Services">
+		<div class="services" id="Services">
 
-			<div class="about-section">
+			<div class="services-wrapper">
 				<div class="headers">
 					<p>About</p>
-					<h2>Evolving with every brief and built for impact, my
-						process spans design, development, and brand
-						strategy—aligning vision with execution to bring
-						clarity and edge to every project.
+					<h2>I spend my time behind the monitor either adjusting pixels or
+						 centering a div. I evolve with every line of code as an engineer and
+						contemplating on my next project framework.
 					</h2>
 				</div>
 
@@ -437,8 +452,11 @@
 		
 		<div class="projects" id="Work">
 			<div class="cards">
-				<div class="header">
+				<div class="headers">
 					<p>Projects</p>
+					<h2>A selection of projects highlighting a some of my skills in design
+						and development.
+					</h2>
 				</div>
 				<div class="projects-conatiner">
 
@@ -447,14 +465,11 @@
 				<div class="demo-box">
 					<a class="visit-site" target="_blank" href="https://global-link-ten.vercel.app/">
 						<img src="Media/logistics.jpg" alt="Globa-Link" data-cursor-text="visit project">
-						<div class="titles">
-							<h2>Global-Link</h2>
-							<img src="/icons/ArrowRight.svg" alt="">
-							<!-- <div class="project-skills">
-								<p>Development</p>
-							</div> -->
-						</div>
 					</a>
+					<div class="titles">
+						<p>Global-Link</p>
+						<img src="/icons/ArrowRight.svg" alt="">
+					</div>
 				</div>
 
 				<!-- Project 2 - Stream-View -->
@@ -462,11 +477,11 @@
 				<div class="demo-box">
 					<a class="visit-site" target="_blank" href="https://stream-view.vercel.app">
 						<img src="Media/stream.jpg" alt="Stream-View" data-cursor-text="visit project">
-						<div class="titles">
-							<h2>Stream-View</h2>
-							<img src="/icons/ArrowRight.svg" alt="">
-						</div>
 					</a>
+					<div class="titles">
+						<p>Stream-View</p>
+						<img src="/icons/ArrowRight.svg" alt="">
+					</div>
 				</div>
 
 				<!-- Project 3 - Windy Heights -->
@@ -474,11 +489,11 @@
 				<div class="demo-box">
 					<a class="visit-site" target="_blank" href="https://windy-heights-primary-school.vercel.app/">
 						<img src="Media/school.jpg" alt="Globa-Link" data-cursor-text="visit project">
-							<div class="titles">
-								<h2>Windy Heights</h2>
-								<img src="/icons/ArrowRight.svg" alt="">
-							</div>
 					</a>
+					<div class="titles">
+						<p>Windy Heights</p>
+						<img src="/icons/ArrowRight.svg" alt="">
+					</div>
 				</div>
 
 				<!-- Project 4 - Architecture SA -->
@@ -540,16 +555,31 @@
 		
 		<!---------------- CONTACT SECTION ----------------->
 		
-		<div class="contact" id="Contact">
-			<div class="contact">
-				<div class="popup" id="popup">Email Copied!</div>
-				<div class="info">
-					<h3>Let's work!</h3>
-					<a id="email" data-text="email-text" data-cursor-text="click me!" href="mailto:sphamandlajunior31@gmail.com">Get in touch</a>
-				</div>
+		<div class="contact-section" id="Contact">
+			<!-- <div class="popup" id="popup">Email Copied!</div> -->
+			<div class="info">
+				<!-- <div class="header">
+					   <p>Get in touch</p>
+			   </div> -->
+				<!-- <h3>Get in touch</h3> -->
+				<!-- <a id="email" data-text="email-text" data-cursor-text="click me!" href="mailto:sphamandlajunior31@gmail.com">Sphamandla 
+					Gumede
+				</a> -->
 				<footer>
-					<p>Sphamandla Gumede © 2024</p>
+					<p>© Sphamandla Gumede 2025</p>
+					<div class="footer-links">
+						<a class="external" href="mailto:sphamandlajunior31@gmail.com">
+							<img src="/icons/TablerSend.png" alt="folder icon">
+						</a>
+						<a class="external" href="https://www.linkedin.com/in/sphamandlagumede/">
+							<img src="/icons/TablerBrandLinkedinFilled.png" alt="folder icon">
+						</a>
+						<a class="external" href="https://github.com/Kenzagi">
+							<img src="/icons/TablerBrandGithubFilled.png" alt="contact icon">
+						</a>
+					</div>
 				</footer>
+				
 			</div>
 		</div>
 		
