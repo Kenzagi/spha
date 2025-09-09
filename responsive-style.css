@@ -1,9 +1,9 @@
-/*--------------------- MOBILE -----------------*/
-
-@media (max-width: 430px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
 html{
 	scroll-snap-type: none;
+	scroll-behavior: smooth;
 }
 
 .container{
@@ -81,17 +81,17 @@ nav a:hover {
 	height: 100dvh;
 	/* color: #FFFAFF; */
 	/* border-radius: 12px; */
-	padding: 20px;
-	display: flex;
 	/* margin-top: 80px; */
+	padding: 2rem;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
 }
 
-.hero .text-area {
+/* .hero .text-area {
 	padding: 0 8px;
-}
+} */
 
 .hero h1{
 	font-size: 3.4rem;
@@ -179,7 +179,7 @@ p{
 	flex-wrap: nowrap;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: end;
 	justify-content: center;
 }
 
@@ -233,8 +233,8 @@ p{
 /*-------------- SKILLS SECTION -------------*/
 
 .services-wrapper{
-	background-color: blueviolet;
-	padding: 0;
+
+	padding: 2rem;
 }
 
 h2{
@@ -244,12 +244,13 @@ h2{
 	font-weight: 600;
 }
 
+
 .service-box{
 	flex-wrap: wrap;
+}
 
-	img{
-		width: 100%;
-	}
+.service-box img{
+	width: 100%;
 }
 
 
@@ -288,7 +289,37 @@ h2{
 
 /*------------------------ CONTACT SECTION ------------------------*/
 
-.section#Contact {
+.contact-section{
+	padding: 0 2rem;
+}
+
+footer p{
+	font-size: .8em;
+}
+
+footer .footer-links{
+	padding: 0;
+	display: flex;
+	align-items: start;
+	justify-content: start;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+	.service-box{
+	flex-wrap: wrap;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.service-box{
+	flex-wrap: nowrap;
+}
+
+/* .section#Contact {
 	max-height: 400px;
 }
 
@@ -313,8 +344,4 @@ h2{
 	left: 32%;
 }
 
-}
-
-
-/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="sphamandlagumede" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://za.linkedin.com/in/sphamandlagumede?trk=profile-badge">Sphamandla Gumede</a></div>
-               */
+} */

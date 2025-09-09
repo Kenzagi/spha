@@ -68,3 +68,19 @@ menu.addEventListener('click', (event) =>{
   }
   
 });
+
+function executeIt(){
+  // alert("WHY???");
+  if(!check){
+    menuContainer.classList.add(" menu-open");
+    check = true;
+    items.style.display = "flex";
+    external_links.style.display = "flex";
+  }
+  else{
+    menuContainer.classList.remove("menu-open");
+    check = false;
+    items.style.display = "none";
+    external_links.style.display = "none";
+  }
+}
