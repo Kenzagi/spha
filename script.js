@@ -65,6 +65,7 @@ let popup = document.getElementById("popup");
 // });
 const menu = document.getElementById('menu');
 var container = document.getElementById('menu-bg');
+var menu_button = document.getElementById('menu-button');
 var items = document.getElementById('menu-items');
 var external_links = document.getElementById('secondary-links');
 var check = false;
@@ -72,6 +73,7 @@ var check = false;
 function executeIt(){
   if(!check){
     container.classList.add("menu-open");
+    menu_button.src = "/icons/navbar_icons/close.png";
     // items.style.display = "flex";
     // external_links.style.display = "flex";
     // alert(check);
@@ -79,8 +81,7 @@ function executeIt(){
   }
   else{
     container.classList.remove("menu-open");
+    menu_button.src = "/icons/navbar_icons/Menu.png";
     check = false;
-    items.style.display = "none";
-    external_links.style.display = "none";
   }
 }

@@ -20,6 +20,7 @@ nav{
 	/* background-color: #0E161B; */
 	top: 0;
 	padding: min(4rem, 8%);
+	justify-content: end;
 	/* padding: 4rem; */
 	/* border-radius: 18px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -28,13 +29,19 @@ nav{
 	flex-direction: column; */
 }
 
-.home{
+.menu-open{
+	width: 100%;
+}
+
+
+nav .home{
 	/* background-color: #707070; */
 	padding: 0;
+	display: none;
 }
 
 .secondary-links{
-	gap: 1.5rem;
+	gap: 2rem;
 }
 
 nav .home p:nth-child(1){
@@ -302,29 +309,14 @@ footer .footer-links{
 	flex-wrap: nowrap;
 }
 
-/* .section#Contact {
-	max-height: 400px;
+.menu-open{
+	width: 100%;
 }
 
-.contact{
-	height: 100%;
-}
 
-.info a{
-	font-size: 40px;
-	color: #292929;
-	font-weight: 600;
+nav .home{
+	/* background-color: #707070; */
+	padding: 0;
+	display: none;
 }
-
-.info h3{
-	font-size: 15px;
-	font-weight: 400;
-}
-
-.popup{
-	position: absolute;
-	top: -15%;
-	left: 32%;
-}
-
-} */
+} 

@@ -18,49 +18,57 @@
 </head>
 <body>
 
-	<div class="container">
+<div class="container">
+	<div class="bg-cont">
+	<div class="absolute">
+	</div>
+
 	
 		<!---------------- NAVIGATION BAR ----------------->
-		<nav id="navbar">
-			<a class="home" href="#">
-				<div class="link-content">
-					<img src="/Media/spha.jpg" alt="">
-					<div class="link-text">
-						<p>Sphamandla Gumede</p>
-						<div class="location">
-							<img src="/icons/navbar_icons/IconoirMapPin.svg" alt="">
-							<p>Durban, SA</p>
+		<header>
+			<nav id="navbar">
+				<!-- <a class="home" href="#">
+					<div class="link-content">
+						<img src="/Media/spha.jpg" alt="">
+						<div class="link-text">
+							<p>Sphamandla Gumede</p>
+							<div class="location">
+								<img src="/icons/navbar_icons/IconoirMapPin.svg" alt="">
+								<p>Durban, SA</p>
+							</div>
 						</div>
 					</div>
+				</a> -->
+				<div class="menu-bg " id="menu-bg">
+						<button type="submit" class="menu " id="menu" onclick="executeIt()">
+							<img class="menu-button" id="menu-button" src="/icons/navbar_icons/Menu.png" alt="contact icon">
+						</button>
+						<!-- <div class="lines"></div>
+						<div class="lines"></div> -->
+						<!-- <div class="lines"></div> -->
+					<div class="menu-items">
+						<p>Home</p>
+						<p>About</p>
+						<p>Services</p>
+						<p>Projects</p>
+						<p class="contacts-title">GEt in touch</p>
+					</div>
+					<div class="secondary-links">
+						<a class="external" href="mailto:sphamandlajunior31@gmail.com">
+							<img src="/icons/navbar_icons/Send.png" alt="folder icon">
+						</a>
+						<a class="external" href="https://www.linkedin.com/in/sphamandlagumede/">
+							<img src="/icons/navbar_icons/Linkedin.png" alt="folder icon">
+						</a>
+						<a class="external" href="https://github.com/Kenzagi">
+							<img src="/icons/navbar_icons/Github.png" alt="contact icon">
+						</a>
+					</div>
 				</div>
-			</a>
-			<div class="menu-bg " id="menu-bg">
-				<div class="menu " id="menu" onclick="executeIt()">
-					<div class="lines"></div>
-					<div class="lines"></div>
-					<!-- <div class="lines"></div> -->
-				</div>
-				<div class="menu-items">
-					<p>Home</p>
-					<p>Work</p>
-					<p>Experience</p>
-					<p class="contacts-title">GEt in touch</p>
-				</div>
-				<div class="secondary-links">
-					<a class="external" href="mailto:sphamandlajunior31@gmail.com">
-						<img src="/icons/TablerSend.svg" alt="folder icon">
-					</a>
-					<a class="external" href="https://www.linkedin.com/in/sphamandlagumede/">
-						<img src="/icons/TablerBrandLinkedin.svg" alt="folder icon">
-					</a>
-					<a class="external" href="https://github.com/Kenzagi">
-						<img src="/icons/TablerBrandGithub.svg" alt="contact icon">
-					</a>
-				</div>
-			</div>
 
-		</nav>
-		
+			</nav>
+		</header>
+
 		<!---------------- HERO SECTION ----------------->
 			<div class="hero">
 				<!-- <h3 class="tracking-in-contract"><span>Software<br>Developer</span></h3> -->
@@ -559,6 +567,7 @@
 			</div>
 		</div>
 		
+	</div>
 	</div>
 	
 <script src="script.js"></script>	
